@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d4b08c7b59074faca070b5b64c89f98c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d4b08c7b59074faca070b5b64c89f98c" ></div>
+        
+</body>
+<script>    
+    
+            var map_d4b08c7b59074faca070b5b64c89f98c = L.map(
+                "map_d4b08c7b59074faca070b5b64c89f98c",
+                {
+                    center: [55.821097, 37.641036],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e557437802bf45e4b4ff288a8fdb5ed0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d4b08c7b59074faca070b5b64c89f98c);
+        
+    
+            var marker_8a61dfa527ad4a9991fa67ee46ae60e9 = L.marker(
+                [55.82253125274986, 37.64707285631158],
+                {}
+            ).addTo(map_d4b08c7b59074faca070b5b64c89f98c);
+        
+    
+        var popup_fb749f652bca4d53b634dd692ab88a12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b07a19f96a443c2a76832d055217cf1 = $(`<div id="html_2b07a19f96a443c2a76832d055217cf1" style="width: 100.0%; height: 100.0%;">Бар «ПАБ»</div>`)[0];
+            popup_fb749f652bca4d53b634dd692ab88a12.setContent(html_2b07a19f96a443c2a76832d055217cf1);
+        
+
+        marker_8a61dfa527ad4a9991fa67ee46ae60e9.bindPopup(popup_fb749f652bca4d53b634dd692ab88a12)
+        ;
+
+        
+    
+    
+            marker_8a61dfa527ad4a9991fa67ee46ae60e9.bindTooltip(
+                `<div>
+                     Нажми меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e249ef64822a4344a75f2648165e91b9 = L.marker(
+                [55.82253125274986, 37.64707285631158],
+                {}
+            ).addTo(map_d4b08c7b59074faca070b5b64c89f98c);
+        
+    
+        var popup_b22a7cd7cfc84f81a816374b88264369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73c21da27d134f7ab92f34033f0af652 = $(`<div id="html_73c21da27d134f7ab92f34033f0af652" style="width: 100.0%; height: 100.0%;">Ночной клуб «СОЛЯРИС»</div>`)[0];
+            popup_b22a7cd7cfc84f81a816374b88264369.setContent(html_73c21da27d134f7ab92f34033f0af652);
+        
+
+        marker_e249ef64822a4344a75f2648165e91b9.bindPopup(popup_b22a7cd7cfc84f81a816374b88264369)
+        ;
+
+        
+    
+    
+            marker_e249ef64822a4344a75f2648165e91b9.bindTooltip(
+                `<div>
+                     Нажми меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_562e27766cec44cfb13f2649c3559478 = L.marker(
+                [55.82253125274986, 37.64707285631158],
+                {}
+            ).addTo(map_d4b08c7b59074faca070b5b64c89f98c);
+        
+    
+        var popup_fe986175c91e4374a05c326816217b9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64a351e675144074b662c37eeca875b9 = $(`<div id="html_64a351e675144074b662c37eeca875b9" style="width: 100.0%; height: 100.0%;">БАР «ГАГАРИН»</div>`)[0];
+            popup_fe986175c91e4374a05c326816217b9e.setContent(html_64a351e675144074b662c37eeca875b9);
+        
+
+        marker_562e27766cec44cfb13f2649c3559478.bindPopup(popup_fe986175c91e4374a05c326816217b9e)
+        ;
+
+        
+    
+    
+            marker_562e27766cec44cfb13f2649c3559478.bindTooltip(
+                `<div>
+                     Нажми меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94ef9b5b6d93468c92e179380d5b5e0c = L.marker(
+                [55.82253125274986, 37.64707285631158],
+                {}
+            ).addTo(map_d4b08c7b59074faca070b5b64c89f98c);
+        
+    
+        var popup_221fbe11743b4db9ada88329fe766ba8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa24ed50f6d1416fb2c988ae667d4d44 = $(`<div id="html_fa24ed50f6d1416fb2c988ae667d4d44" style="width: 100.0%; height: 100.0%;">Бар «ТЕРРАСА»</div>`)[0];
+            popup_221fbe11743b4db9ada88329fe766ba8.setContent(html_fa24ed50f6d1416fb2c988ae667d4d44);
+        
+
+        marker_94ef9b5b6d93468c92e179380d5b5e0c.bindPopup(popup_221fbe11743b4db9ada88329fe766ba8)
+        ;
+
+        
+    
+    
+            marker_94ef9b5b6d93468c92e179380d5b5e0c.bindTooltip(
+                `<div>
+                     Нажми меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b91f6906e1d4d8cb51553d4e28cb48c = L.marker(
+                [55.830380569898374, 37.646651393835825],
+                {}
+            ).addTo(map_d4b08c7b59074faca070b5b64c89f98c);
+        
+    
+        var popup_4f4b569fd0784473811936865d9d49ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af6b3532afc84c77a3049393c1d3c142 = $(`<div id="html_af6b3532afc84c77a3049393c1d3c142" style="width: 100.0%; height: 100.0%;">ПИВНОЙ БАР</div>`)[0];
+            popup_4f4b569fd0784473811936865d9d49ed.setContent(html_af6b3532afc84c77a3049393c1d3c142);
+        
+
+        marker_8b91f6906e1d4d8cb51553d4e28cb48c.bindPopup(popup_4f4b569fd0784473811936865d9d49ed)
+        ;
+
+        
+    
+    
+            marker_8b91f6906e1d4d8cb51553d4e28cb48c.bindTooltip(
+                `<div>
+                     Нажми меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
